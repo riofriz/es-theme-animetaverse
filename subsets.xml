@@ -2,9 +2,12 @@
 <theme>
     <formatVersion>7</formatVersion>
     <subset name="backgroundmusic" displayName="Background Music">
-        <include name="both" displayName="Both" />
+        <include name="both" displayName="SOTN + RTF" />
         <include name="silenceofthenight" displayName="Silence of the night" />
         <include name="readytofight" displayName="Ready to fight" />		
+        <include name="cyberh49" displayName="Cyberh49 (loop)" />	
+        <include name="pixelgustavo" displayName="Pixel Gustavo (loop)" />	
+        <include name="fccview" displayName="fccview (loop)" />	
     </subset>
 
     <subset name="showmonkey" displayName="Show Monkey">

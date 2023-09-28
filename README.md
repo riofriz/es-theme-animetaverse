@@ -14,6 +14,13 @@
 - **Logos artwork originally based on:** ["Arcadeplanet" by Mickaël Isman (EvilDindon Ken)](https://github.com/EvilDindon/ES-THEME-ARCADEPLANET)
 - **Help icons originally based on:** ["Ckau-Book" by Ckau](https://github.com/CkauNui/ckau-book)
 
+## Customizations
+
+- Hide/Show the monkey on the video preview
+- Select between yellow/magenta on both home screen and game list
+- Choose background audio (between two full songs and 3 different loops)
+- Mute/Unmute game video previews
+
 ## Info
 
 Animetaverse is a theme created using the amazing pixel art made by my good friend [Gustavo Viselner](https://x.com/PixelGustavo). <br><br>

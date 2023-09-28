@@ -112,6 +112,9 @@ originally based on: "SynthWave" by Riskeynewt356
 			<path ifSubset="backgroundmusic:both">./assets/music/animetas_tracks.mp3</path>
 			<path ifSubset="backgroundmusic:silenceofthenight">./assets/music/silence_of_the_night.mp3</path>
 			<path ifSubset="backgroundmusic:readytofight">./assets/music/ready_to_fight.mp3</path>
+			<path ifSubset="backgroundmusic:cyberh49">./assets/music/cyberh49.mp3</path>
+			<path ifSubset="backgroundmusic:pixelgustavo">./assets/music/pixelgustavo.mp3</path>
+			<path ifSubset="backgroundmusic:fccview">./assets/music/fccview.mp3</path>
 		</sound>
 
         <video name="staticBackground">
