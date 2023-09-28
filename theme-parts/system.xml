@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system">
+		<sound name="bgsound">
+			<path ifSubset="backgroundmusic:both">./../assets/music/animetas_tracks.mp3</path>
+			<path ifSubset="backgroundmusic:silenceofthenight">./../assets/music/silence_of_the_night.mp3</path>
+			<path ifSubset="backgroundmusic:readytofight">./../assets/music/ready_to_fight.mp3</path>
+			<path ifSubset="backgroundmusic:cyberh49">./../assets/music/cyberh49.mp3</path>
+			<path ifSubset="backgroundmusic:pixelgustavo">./../assets/music/pixelgustavo.mp3</path>
+			<path ifSubset="backgroundmusic:fccview">./../assets/music/fccview.mp3</path>
+		</sound>
+
+        <video name="staticBackground">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../assets/art/bgvideo.mp4</path>
+            <zIndex>0</zIndex>
+        </video>
+
+        <image name="bgOverlay" extra="true">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../assets/art/bg-overlay.png</path>
+            <zIndex>10</zIndex>
+        </image>
+
+        <image name="tvNoises" extra="true">
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../assets/art/tv-noises.gif</path>
+            <zIndex>159</zIndex>
+            <effect>none</effect>
+            <delay>0.3</delay>
+            <origin>0.3 0.7</origin>
+            <pos>0.151 0.725</pos>
+            <size>0.364 0.395</size>
+            <zIndex>20</zIndex>
+        </image>
+
+        <video name="videobox" extra="true">
+            <path>{random}</path>
+            <effect>none</effect>
+            <delay>0.3</delay>
+            <origin>0.3 0.7</origin>
+            <pos>0.151 0.725</pos>
+            <size>0.364 0.395</size>
+            <zIndex>30</zIndex>
+            <audio ifSubset="muteindexvideo:yes">false</audio>
+        </video>
+
+        <image name="coreOverlay" extra="true">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path ifSubset="indexcolor:yellow">./../assets/art/video-frame.png</path>
+            <path ifSubset="indexcolor:magenta">./../assets/art/video-frame-magenta.png</path>
+            <zIndex>40</zIndex>
+        </image>
+
+        <image ifSubset="showmonkey:yes" name="animonkey" extra="true">
+            <maxSize>0.25</maxSize>
+            <pos>0.015 0.61</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../assets/art/animonkey.gif</path>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="logo">
+            <zIndex>70</zIndex>
+            <path>./../assets/logos/${system.theme}.svg</path>
+            <path>./../assets/logos/${system.theme}.png</path>
+            <storyboard event="activate">
+                <animation ifSubset="indexcolor:yellow" property="color" from="ffffff" to="FAD400" begin="" duration="600" mode="EaseIn" autoreverse="false"/>
+				<animation  ifSubset="indexcolor:magenta" property="color" from="ffffff" to="FC2A8B" begin="" duration="600" mode="EaseIn" autoreverse="false"/>
+            </storyboard>
+        </image>
+
+        <text name="logoText">
+            <fontPath>./../assets/fonts/Road_Rage.otf</fontPath>
+            <fontSize>0.056</fontSize>
+            <color>ffffffff</color>
+        </text>
+
+        <text name="systemInfo">
+            <origin>0 0</origin>
+            <pos>0.418 0.36</pos>
+            <size>0.15</size>
+            <zIndex>10</zIndex>
+            <backgroundColor>00000000</backgroundColor>
+            <color ifSubset="indexcolor:yellow">fad400</color>
+			<color ifSubset="indexcolor:magenta">fc2a8b</color>
+            <fontPath>./../assets/fonts/Road_Rage.otf</fontPath>
+            <fontSize>0.025</fontSize>
+        </text>
+
+        <carousel name="systemcarousel">
+            <type>vertical</type>
+            <pos>0.637 0.12</pos>
+            <size>1 0.7</size>
+            <origin>0 0</origin>
+            <color>00000000</color>
+            <logoScale>0.9</logoScale>
+            <logoSize>0.25 0.155</logoSize>
+            <logoPos>0 0.28</logoPos>
+            <maxLogoCount>4.5</maxLogoCount>
+            <zIndex>60</zIndex>
+        </carousel>
+    </view>
+</theme>

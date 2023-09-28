@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="menu">
+		<menuText name="menutitle">
+			<fontPath>./../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>ffffff</color>
+		</menuText>
+
+		<menuText name="menufooter">
+			<fontPath>./../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</menuText>
+
+		<menuText name="menutext">
+			<fontPath>./../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>ffffff</color>
+			<selectorColor>fcd400</selectorColor>
+			<selectorColorEnd>fcd400</selectorColorEnd>
+			<selectedColor>000000</selectedColor>
+			<separatorColor>000000</separatorColor>
+		</menuText>
+
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+		</menuTextSmall>
+
+		<menuBackground name="menubg">
+			<color>2F1359</color>
+			<cornerSize>48 48</cornerSize>
+			<path>./../assets/art/frame.png</path>
+		</menuBackground>
+
+		<menuIcons name="menuicons">
+			<iconKodi>./../assets/icons/Kodi.png</iconKodi>
+			<iconSystem>./../assets/icons/System.png</iconSystem>
+			<iconUpdates>./../assets/icons/Updates.png</iconUpdates>
+			<iconGames>./../assets/icons/Games.png</iconGames>
+			<iconControllers>./../assets/icons/Controllers.png</iconControllers>
+			<iconUI>./../assets/icons/UI.png</iconUI>
+			<iconSound>./../assets/icons/Sound.png</iconSound>
+			<iconNetwork>./../assets/icons/Network.png</iconNetwork>
+			<iconScraper>./../assets/icons/Scraper.png</iconScraper>
+			<iconAdvanced>./../assets/icons/Advanced.png</iconAdvanced>
+			<iconQuit>./../assets/icons/Quit.png</iconQuit>
+			<iconRestart>./../assets/icons/Restart.png</iconRestart>
+			<iconShutdown>./../assets/icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./../assets/icons/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./../assets/icons/Contest.png</iconRetroachievements>
+			<iconManual>./../assets/icons/Manual.png</iconManual>
+		</menuIcons>
+	</view>	
+
+    <view name="system,screen,detailed">
+		<helpsystem name="help">
+			<fontPath>./../assets/fonts/Agencyfb-bOLD.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<pos>0.22 0.961</pos>
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<iconA>./../assets/icons/arcade/a.svg</iconA>
+			<iconB>./../assets/icons/arcade/b.svg</iconB>
+			<iconX>./../assets/icons/arcade/x.svg</iconX>
+			<iconY>./../assets/icons/arcade/y.svg</iconY>
+		</helpsystem>
+	</view>
+
+    <view name="screen">
+		<text name="clock">
+			<origin>0.3 0.7</origin>
+			<pos>0.365 0.148</pos>
+			<fontSize>0.03</fontSize>
+			<color>ffffff</color>
+		</text>
+
+		<text name="network">
+			<origin>0.3 0.7</origin>
+			<pos>0.3 0.148</pos>
+			<fontSize>0.03</fontSize>
+			<color>ffffff</color>
+		</text>
+
+		<controllerActivity name="controllerActivity">
+			<origin>0.3 0.7</origin>
+			<pos>0.06 0.126</pos>
+			<size>0.03</size>
+			<imagePath>./../assets/icons/arcade/controller.svg</imagePath>     
+			<hotkeyColor ifSubset="indexcolor:yellow">fad400</hotkeyColor>
+			<hotkeyColor ifSubset="indexcolor:magenta">fc2a8b</hotkeyColor>
+			<color>ffffff</color>
+		</controllerActivity>
+	</view>
+</theme>

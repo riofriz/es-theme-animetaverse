@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="detailed">
+        <image name="background" extra="true">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <path ifSubset="gamelistcolor:magenta">./../../assets/art/gamelist.png</path>
+			<path ifSubset="gamelistcolor:yellow">./../../assets/art/gamelist-yellow.png</path>
+            <zIndex>20</zIndex>
+            <color>CCCCCC</color>
+        </image>
+
+        <video name="md_video">
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <effect>none</effect>
+            <delay>0.12</delay>
+            <pos>0.5 0.5</pos>
+            <size>1 1</size>
+            <zIndex>10</zIndex>
+            <audio>false</audio>
+        </video>
+
+        <image name="tvNoisesList" extra="true">
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../../assets/art/tv-noises.gif</path>
+            <effect>none</effect>
+            <delay>0.12</delay>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <zIndex>0</zIndex>
+        </image>
+
+        <image name="extraOverlay" extra="true">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <path>./../../assets/art/gamelist-video-overlay.png</path>
+            <zIndex>0</zIndex>
+            <zIndex>15</zIndex>
+        </image>
+
+        <textlist name="gamelist">
+            <selectorColor ifSubset="gamelistcolor:magenta">FC2A8B</selectorColor>
+            <selectorColorEnd ifSubset="gamelistcolor:magenta">FC2A8B</selectorColorEnd>
+			<selectorColor ifSubset="gamelistcolor:yellow">fad400</selectorColor>
+            <selectorColorEnd ifSubset="gamelistcolor:yellow">fad400</selectorColorEnd>
+            <selectedColor ifSubset="gamelistcolor:magenta">ffffff</selectedColor>
+			<selectedColor ifSubset="gamelistcolor:yellow">000000</selectedColor>
+            <primaryColor>ffffff</primaryColor>
+            <secondaryColor>ffffff</secondaryColor>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <fontSize>0.026</fontSize>
+            <pos>0 0.250</pos>
+            <size>0.3 0.55</size>
+            <alignment>left</alignment>
+            <horizontalMargin>0.01</horizontalMargin>
+            <origin>0 0</origin>
+            <lineSpacing>2.1</lineSpacing>
+            <selectorImagePath>./../../assets/art/box.png</selectorImagePath>
+            <selectorOffsetY>-0.05</selectorOffsetY>
+            <selectorHeight>0.040</selectorHeight>
+            <zIndex>30</zIndex>
+            <sound>./../../assets/sounds/scroll.wav</sound>
+        </textlist>
+
+        <image name="console" extra="true">
+            <pos>0.7 0.05</pos>
+            <origin>0 0</origin>
+            <maxSize>0.29</maxSize>
+            <path>./../../assets/consoles/${system.theme}.png</path>
+            <zIndex>30</zIndex>
+        </image>
+
+        <image name="md_marquee">
+            <origin>0 0</origin>
+            <pos>0.39 0.53</pos>
+            <maxSize>0.2</maxSize>
+            <rotation>-90</rotation>
+            <zIndex>160</zIndex>
+        </image>
+
+        <text name="md_developer">
+            <pos>0.525 0.8327</pos>
+            <size>0.094 0.02</size>
+            <alignment>left</alignment>
+            <color>ffffff</color>
+            <fontSize>0.022</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <text name="md_description">
+            <pos>0.525 0.35</pos>
+            <size>0.35 0.44</size>
+            <color>ffffff</color>
+            <fontSize>0.028</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <text name="md_genre">
+            <pos>0.525 0.7964</pos>
+            <size>0.108 0.02</size>
+            <alignment>left</alignment>
+            <color>ffffff</color>
+            <fontSize>0.022</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <text name="md_lbl_players">
+            <pos>0.607 0.83</pos>
+            <size>0.125 0.10</size>
+            <alignment>right</alignment>
+            <color>ffffff</color>
+            <fontSize>0.022</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <text name="md_players">
+            <pos>0.73 0.83</pos>
+            <size>0.125 0.10</size>
+            <alignment>left</alignment>
+            <color>ffffff</color>
+            <fontSize>0.022</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <text name="md_lbl_playcount">
+            <pos>0.64 0.792</pos>
+            <size>0.125 0.10</size>
+            <alignment>right</alignment>
+            <color>ffffff</color>
+            <fontSize>0.022</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <text name="md_playcount">
+            <pos>0.764 0.792</pos>
+            <size>0.125 0.10</size>
+            <alignment>left</alignment>
+            <color>ffffff</color>
+            <fontSize>0.022</fontSize>
+            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <zIndex>190</zIndex>
+        </text>
+
+        <rating name="md_rating">
+            <pos>0.69 0.783</pos>
+            <alignment>left</alignment>
+            <color>ffffff</color>
+            <scale>0.45</scale>
+            <filledPath>./../../assets/icons/rating_filled.svg</filledPath>
+            <unfilledPath>./../../assets/icons/rating_unfilled.svg</unfilledPath>
+            <zIndex>190</zIndex>
+        </rating>
+    </view>
+</theme>
