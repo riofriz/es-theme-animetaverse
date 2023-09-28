@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <subset name="backgroundmusic" displayName="Background Music">
+        <include name="both" displayName="Both" />
+        <include name="silenceofthenight" displayName="Silence of the night" />
+        <include name="readytofight" displayName="Ready to fight" />		
+    </subset>
+
+    <subset name="showmonkey" displayName="Show Monkey">
+        <include name="yes" displayName="Yes" />
+        <include name="no" displayName="No" />
+    </subset>
+
+    <subset name="indexcolor" displayName="Home screen color">
+        <include name="yellow" displayName="Yellow" />
+        <include name="magenta" displayName="Magenta" />        
+    </subset>
+
+    <subset name="gamelistcolor" displayName="Game list color">
+        <include name="magenta" displayName="Magenta" />
+        <include name="yellow" displayName="Yellow" />
+    </subset>
+
+    <subset name="muteindexvideo" displayName="Mute index video">
+        <include name="yes" displayName="Yes" />
+        <include name="no" displayName="No" />
+    </subset>
+</theme>
