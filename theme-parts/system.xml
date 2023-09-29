@@ -31,7 +31,7 @@
             <zIndex>0</zIndex>
         </image>
 
-        <image name="bgOverlay" extra="true">
+        <image name="bgOverlay" extra="static">
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
@@ -41,7 +41,7 @@
             <zIndex>10</zIndex>
         </image>
 
-        <image name="tvNoises" extra="true">
+        <image name="tvNoises" extra="static">
             <tile>false</tile>
             <linearSmooth>true</linearSmooth>
             <path>./../assets/art/tv-noises.gif</path>
@@ -54,7 +54,7 @@
             <zIndex>20</zIndex>
         </image>
 
-        <video name="videobox" extra="true">
+        <video name="videobox" extra="static">
             <path>{random}</path>
             <effect>none</effect>
             <delay>0.3</delay>
@@ -65,7 +65,7 @@
             <audio ifSubset="muteindexvideo:yes">false</audio>
         </video>
 
-        <image name="coreOverlay" extra="true">
+        <image name="coreOverlay" extra="static">
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
@@ -76,7 +76,7 @@
             <zIndex>40</zIndex>
         </image>
 
-        <image ifSubset="showmonkey:yes" name="animonkey" extra="true">
+        <image ifSubset="showmonkey:yes" name="animonkey" extra="static">
             <maxSize>0.25</maxSize>
             <pos>0.015 0.61</pos>
             <origin>0 0</origin>
@@ -124,6 +124,7 @@
             <logoSize>0.25 0.155</logoSize>
             <logoPos>0 0.28</logoPos>
             <maxLogoCount>4.5</maxLogoCount>
+            <defaultTransition>instant</defaultTransition>
             <zIndex>60</zIndex>
         </carousel>
     </view>
