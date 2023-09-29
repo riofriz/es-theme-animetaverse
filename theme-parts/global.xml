@@ -57,8 +57,8 @@
     <view name="system,screen,detailed">
 		<helpsystem name="help">
 			<fontPath>./../assets/fonts/Agencyfb-bOLD.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<pos>0.22 0.961</pos>
+			<fontSize>0.022</fontSize>
+			<pos>0.01 0.97</pos>
 			<textColor>ffffff</textColor>
 			<iconColor>ffffff</iconColor>
 			<iconA>./../assets/icons/arcade/a.svg</iconA>

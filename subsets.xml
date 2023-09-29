@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
     <formatVersion>7</formatVersion>
+
     <subset name="backgroundmusic" displayName="Background Music">
         <include name="both" displayName="SOTN + RTF" />
         <include name="silenceofthenight" displayName="Silence of the night" />
@@ -8,6 +9,11 @@
         <include name="cyberh49" displayName="Cyberh49 (loop)" />	
         <include name="pixelgustavo" displayName="Pixel Gustavo (loop)" />	
         <include name="fccview" displayName="fccview (loop)" />	
+    </subset>
+
+    <subset name="backgroundvideo" displayName="Home background">
+        <include name="yes" displayName="Video" />
+        <include name="no" displayName="Image" />
     </subset>
 
     <subset name="showmonkey" displayName="Show Monkey">

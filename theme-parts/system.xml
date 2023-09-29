@@ -11,7 +11,7 @@
 			<path ifSubset="backgroundmusic:fccview">./../assets/music/fccview.mp3</path>
 		</sound>
 
-        <video name="staticBackground">
+        <video ifSubset="backgroundvideo:yes" name="staticBackground">
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
@@ -20,6 +20,16 @@
             <path>./../assets/art/bgvideo.mp4</path>
             <zIndex>0</zIndex>
         </video>
+
+        <image ifSubset="backgroundvideo:no" name="staticBackground">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../assets/art/bgimage.jpg</path>
+            <zIndex>0</zIndex>
+        </image>
 
         <image name="bgOverlay" extra="true">
             <size>1 1</size>
