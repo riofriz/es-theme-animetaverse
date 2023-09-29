@@ -2,10 +2,6 @@
 <theme>
     <formatVersion>7</formatVersion>
     <view name="basic">
-        <text name="logo">
-            <color>ffffff</color>
-        </text>
-
         <image name="background" extra="true">
             <size>1 1</size>
             <pos>0 0</pos>
