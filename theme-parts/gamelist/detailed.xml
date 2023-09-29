@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
     <formatVersion>7</formatVersion>
-    <view name="detailed">
+    <view name="detailed, basic">
         <text name="logo">
             <color>ffffff</color>
         </text>
@@ -70,56 +70,61 @@
             <zIndex>30</zIndex>
             <sound>./../../assets/sounds/scroll.wav</sound>
         </textlist>
-
-        <image name="console" extra="true">
-            <pos>0.7 0.05</pos>
-            <origin>0 0</origin>
-            <maxSize>0.29</maxSize>
-            <path>./../../assets/consoles/${system.theme}.png</path>
-            <zIndex>30</zIndex>
-        </image>
-
-        <image name="md_marquee">
-            <origin>0 0</origin>
-            <pos>0.39 0.53</pos>
-            <maxSize>0.2</maxSize>
-            <rotation>-90</rotation>
-            <zIndex>160</zIndex>
-        </image>
-
+        
         <text name="md_developer">
-            <pos>0.525 0.8327</pos>
-            <size>0.094 0.02</size>
-            <alignment>left</alignment>
+            <pos>0.22 0.42</pos>
+            <size>1 0.04</size>
+            <alignment>center</alignment>
             <color>ffffff</color>
-            <fontSize>0.022</fontSize>
-            <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
+            <fontSize>0.25</fontSize>
+            <fontPath>./../../assets/fonts/Road_Rage.otf</fontPath>
+            <zIndex>14</zIndex>
+            <rotation>-40</rotation>
+        </text>
+
+        <text name="md_name">
+            <pos>0.475 0.22</pos>
+            <size>0.5 0.04</size>
+            <alignment>left</alignment>
+			<color ifSubset="gamelistcolor:yellow">fad400</color>
+            <color ifSubset="gamelistcolor:magenta">FC2A8B</color>
+            <fontSize>0.060</fontSize>
+            <fontPath>./../../assets/fonts/Road_Rage.otf</fontPath>
             <zIndex>190</zIndex>
+            <glowColor>000000</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>-4 4 0 0</glowOffset>
+            <zIndex>17</zIndex>
         </text>
 
         <text name="md_description">
             <pos>0.525 0.35</pos>
-            <size>0.35 0.44</size>
+            <size>0.35 0.59</size>
             <color>ffffff</color>
+            <glowColor>000000</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>-4 4 0 0</glowOffset>
             <fontSize>0.028</fontSize>
             <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
             <zIndex>190</zIndex>
         </text>
 
         <text name="md_genre">
-            <pos>0.525 0.7964</pos>
-            <size>0.108 0.02</size>
+            <pos>0.907 0.14</pos>
+            <size>0.125 0.47</size>
             <alignment>left</alignment>
             <color>ffffff</color>
             <fontSize>0.022</fontSize>
             <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
             <zIndex>190</zIndex>
+            <rotation>-90</rotation>
         </text>
 
         <text name="md_lbl_players">
-            <pos>0.607 0.83</pos>
+            <pos>0.907 0.63</pos>
             <size>0.125 0.10</size>
-            <alignment>right</alignment>
+            <rotation>-90</rotation>
+            <alignment>left</alignment>
             <color>ffffff</color>
             <fontSize>0.022</fontSize>
             <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
@@ -127,19 +132,21 @@
         </text>
 
         <text name="md_players">
-            <pos>0.73 0.83</pos>
+            <pos>0.907 0.56</pos>
             <size>0.125 0.10</size>
             <alignment>left</alignment>
             <color>ffffff</color>
             <fontSize>0.022</fontSize>
             <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
             <zIndex>190</zIndex>
+            <rotation>-90</rotation>
         </text>
 
         <text name="md_lbl_playcount">
-            <pos>0.64 0.792</pos>
+            <pos>0.907 0.50</pos>
             <size>0.125 0.10</size>
-            <alignment>right</alignment>
+            <rotation>-90</rotation>
+            <alignment>left</alignment>
             <color>ffffff</color>
             <fontSize>0.022</fontSize>
             <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
@@ -147,23 +154,29 @@
         </text>
 
         <text name="md_playcount">
-            <pos>0.764 0.792</pos>
+            <pos>0.907 0.39</pos>
             <size>0.125 0.10</size>
+            <rotation>-90</rotation>
             <alignment>left</alignment>
             <color>ffffff</color>
             <fontSize>0.022</fontSize>
             <fontPath>./../../assets/fonts/AgencyFB-Bold.ttf</fontPath>
             <zIndex>190</zIndex>
+            <glowColor>000000</glowColor>
+            <glowSize>2</glowSize>
+            <glowOffset>-4 4 0 0</glowOffset>
         </text>
 
         <rating name="md_rating">
-            <pos>0.69 0.783</pos>
+            <pos>0.407 0.50</pos>
             <alignment>left</alignment>
             <color>ffffff</color>
-            <scale>0.45</scale>
-            <filledPath>./../../assets/icons/rating_filled.svg</filledPath>
+            <scale>0.60</scale>
+            <filledPath ifSubset="gamelistcolor:yellow">./../../assets/icons/rating_filled.svg</filledPath>
+            <filledPath ifSubset="gamelistcolor:magenta">./../../assets/icons/rating_filled_magenta.svg</filledPath>
             <unfilledPath>./../../assets/icons/rating_unfilled.svg</unfilledPath>
             <zIndex>190</zIndex>
+            <rotation>90</rotation>
         </rating>
     </view>
 </theme>

@@ -29,6 +29,7 @@
 		</menuTextSmall>
 
 		<menuBackground name="menubg">
+			<zIndex>50</zIndex>
 			<color>2F1359</color>
 			<cornerSize>48 48</cornerSize>
 			<path>./../assets/art/frame.png</path>
@@ -54,7 +55,7 @@
 		</menuIcons>
 	</view>	
 
-    <view name="system,screen,detailed">
+    <view name="system,screen,detailed,basic">
 		<helpsystem name="help">
 			<fontPath>./../assets/fonts/Agencyfb-bOLD.ttf</fontPath>
 			<fontSize>0.022</fontSize>
@@ -69,7 +70,7 @@
 	</view>
 
     <view name="screen">
-		<text name="clock">
+		<text name="clock" extra="static">
 			<origin>0.3 0.7</origin>
 			<pos>0.365 0.148</pos>
 			<fontSize>0.03</fontSize>

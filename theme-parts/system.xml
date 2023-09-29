@@ -49,7 +49,7 @@
             <effect>none</effect>
             <delay>0.3</delay>
             <origin>0.3 0.7</origin>
-            <pos>0.151 0.725</pos>
+            <pos>0.152 0.725</pos>
             <size>0.364 0.395</size>
             <zIndex>20</zIndex>
         </image>
@@ -59,7 +59,7 @@
             <effect>none</effect>
             <delay>0.3</delay>
             <origin>0.3 0.7</origin>
-            <pos>0.151 0.725</pos>
+            <pos>0.152 0.725</pos>
             <size>0.364 0.395</size>
             <zIndex>30</zIndex>
             <audio ifSubset="muteindexvideo:yes">false</audio>
@@ -90,8 +90,10 @@
             <zIndex>70</zIndex>
             <path>./../assets/logos/${system.theme}.svg</path>
             <path>./../assets/logos/${system.theme}.png</path>
-            <storyboard event="activate">
+            <storyboard ifSubset="indexcolor:yellow" event="activate">
                 <animation ifSubset="indexcolor:yellow" property="color" from="ffffff" to="FAD400" begin="" duration="600" mode="EaseIn" autoreverse="false"/>
+            </storyboard>
+            <storyboard ifSubset="indexcolor:magenta" event="activate">
 				<animation  ifSubset="indexcolor:magenta" property="color" from="ffffff" to="FC2A8B" begin="" duration="600" mode="EaseIn" autoreverse="false"/>
             </storyboard>
         </image>

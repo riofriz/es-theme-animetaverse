@@ -27,8 +27,8 @@
     </subset>
 
     <subset name="gamelistcolor" displayName="Game list color">
-        <include name="magenta" displayName="Magenta" />
         <include name="yellow" displayName="Yellow" />
+        <include name="magenta" displayName="Magenta" />
     </subset>
 
     <subset name="muteindexvideo" displayName="Mute index video">

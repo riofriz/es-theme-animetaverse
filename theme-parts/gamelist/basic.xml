@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="basic">
+        <text name="logo">
+            <color>ffffff</color>
+        </text>
+
+        <image name="background" extra="true">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <path ifSubset="gamelistcolor:magenta">./../../assets/art/notfound-magenta.png</path>
+			<path ifSubset="gamelistcolor:yellow">./../../assets/art/notfound-yellow.png</path>
+            <zIndex>20</zIndex>
+            <color>CCCCCC</color>
+        </image>
+
+        <textlist name="gamelist">
+            <zIndex>0</zIndex>
+        </textlist>
+    </view>
+</theme>

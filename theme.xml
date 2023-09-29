@@ -17,4 +17,5 @@ originally based on: "SynthWave" by Riskeynewt356
 	<include>./theme-parts/global.xml</include>
 	<include>./theme-parts/system.xml</include>
 	<include>./theme-parts/gamelist/detailed.xml</include>
+	<include>./theme-parts/gamelist/basic.xml</include>
 </theme>
