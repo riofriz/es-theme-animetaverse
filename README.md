@@ -1,6 +1,13 @@
 # Animetaverse Theme
 
-![view](https://i.imgur.com/skAkf2G.jpg)
+## System View
+![view](https://i.imgur.com/LoP4rXj.png)
+
+## Gamelist View
+![view](https://i.imgur.com/eLBOYaO.png)
+
+## Video Preview
+[View on youtube](https://i.imgur.com/LoP4rXj.png)
 
 ## Credits
 
@@ -20,6 +27,7 @@
 - Select between yellow/magenta on both home screen and game list
 - Choose background audio (between two full songs and 3 different loops)
 - Mute/Unmute game video previews
+- Select video/image background for lower performance machines
 
 ## Info
 
