@@ -1,12 +1,19 @@
 # Animetaverse Theme
 
-## System View
+## System View - Vertical
+
 ![view](https://i.imgur.com/LoP4rXj.png)
 
+## System View - Horizontal
+
+![view](https://i.imgur.com/E5vNUTS.png)
+
 ## Gamelist View
+
 ![view](https://i.imgur.com/eLBOYaO.png)
 
 ## Video Preview
+
 [View on youtube](https://i.imgur.com/LoP4rXj.png)
 
 ## Credits
