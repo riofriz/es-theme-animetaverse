@@ -23,6 +23,9 @@
 
 ## Customizations
 
+> The only supported view for gamelist is "Detailed" for now. "Basic" will show a "roms not found" message. I am using the basic view as a fallback for when a system does not have roms as all my effort went into the detailed view anyway.
+
+- Choose between vertical and horizontal view
 - Hide/Show the monkey on the video preview
 - Select between yellow/magenta on both home screen and game list
 - Choose background audio (between two full songs and 3 different loops)
