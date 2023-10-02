@@ -3,8 +3,8 @@
     <formatVersion>7</formatVersion>
 
     <subset name="viewmode" displayName="View mode">
-        <include name="horizontal" displayName="Horizontal" />
         <include name="vertical" displayName="Vertical" />
+        <include name="horizontal" displayName="Horizontal" />
     </subset>
 
     <subset name="backgroundmusic" displayName="Background Music">

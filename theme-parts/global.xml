@@ -77,12 +77,12 @@
 			<color>ffffff</color>
 		</text>
 
-		<!-- <batteryIndicator name="batteryIndicator">
+		<batteryIndicator name="batteryIndicator">
 			<origin>0.3 0.7</origin>
-			<pos>0.365 0.148</pos>
+			<pos>0.325 0.125</pos>
 			<fontSize>0.03</fontSize>
 			<color>ffffff</color>
-		</batteryIndicator> -->
+		</batteryIndicator>
 
 		<text name="network">
 			<origin>0.3 0.7</origin>
