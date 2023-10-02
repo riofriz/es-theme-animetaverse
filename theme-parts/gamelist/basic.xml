@@ -2,18 +2,5 @@
 <theme>
     <formatVersion>7</formatVersion>
     <view name="basic">
-        <image name="background" extra="true">
-            <size>1 1</size>
-            <pos>0 0</pos>
-            <origin>0 0</origin>
-            <path ifSubset="gamelistcolor:magenta">./../../assets/art/notfound-magenta.png</path>
-			<path ifSubset="gamelistcolor:yellow">./../../assets/art/notfound-yellow.png</path>
-            <zIndex>20</zIndex>
-            <color>CCCCCC</color>
-        </image>
-
-        <textlist name="gamelist">
-            <zIndex>0</zIndex>
-        </textlist>
     </view>
 </theme>

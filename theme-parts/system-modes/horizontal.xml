@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system">
+        <image name="tvNoises" extra="static">
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../../assets/art/tv-noises.gif</path>
+            <zIndex>159</zIndex>
+            <effect>none</effect>
+            <delay>0.3</delay>
+            <origin>0.3 0.7</origin>
+            <pos>0.685 0.4</pos>
+            <size>0.364 0.395</size>
+            <zIndex>20</zIndex>
+        </image>
+
+        <video name="videobox" extra="static">
+            <path>{random}</path>
+            <effect>none</effect>
+            <delay>0.3</delay>
+            <origin>0.3 0.7</origin>
+            <pos>0.685 0.4</pos>
+            <size>0.364 0.395</size>
+            <zIndex>30</zIndex>
+            <audio ifSubset="muteindexvideo:yes">false</audio>
+        </video>
+
+        <image name="totalGame" extra="static">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path ifSubset="indexcolor:yellow">./../../assets/art/total-games-horizontal.png</path>
+            <path ifSubset="indexcolor:magenta">./../../assets/art/total-games-horizontal-magenta.png</path>
+            <zIndex>5</zIndex>
+        </image>
+
+        <image name="coreOverlay" extra="static">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path ifSubset="indexcolor:yellow">./../../assets/art/video-frame-horizontal.png</path>
+            <path ifSubset="indexcolor:magenta">./../../assets/art/video-frame-horizontal-magenta.png</path>
+            <zIndex>40</zIndex>
+        </image>
+
+        <text name="systemInfo">
+            <origin>0 0</origin>
+            <pos>0.16 0.78</pos>
+            <size>0.15</size>
+            <zIndex>10</zIndex>
+            <color ifSubset="indexcolor:yellow">FAD400</color>
+			<color ifSubset="indexcolor:magenta">FC2A8B</color>
+            <fontPath>./../../assets/fonts/Agencyfb-bOLD.ttf</fontPath>
+            <fontSize>0.035</fontSize>
+            <alignment>left</alignment>
+        </text>
+
+        <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <pos>0.05 0.22</pos>
+            <size>0.9 0.7</size>
+            <origin>0 0</origin>
+            <color>00000000</color>
+            <logoScale>0.95</logoScale>
+            <logoSize>0.3</logoSize>
+            <logoPos>0 0.28</logoPos>
+            <maxLogoCount>3</maxLogoCount>
+            <defaultTransition>instant</defaultTransition>
+            <zIndex>60</zIndex>
+        </carousel>
+    </view>
+</theme>

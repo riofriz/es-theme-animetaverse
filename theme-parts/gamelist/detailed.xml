@@ -81,17 +81,6 @@
             <zIndex>30</zIndex>
             <sound>./../../assets/sounds/scroll.wav</sound>
         </textlist>
-        
-        <!-- <text name="md_developer">
-            <pos>0.22 0.42</pos>
-            <size>1 0.04</size>
-            <alignment>center</alignment>
-            <color>ffffff</color>
-            <fontSize>0.25</fontSize>
-            <fontPath>./../../assets/fonts/Road_Rage.otf</fontPath>
-            <zIndex>14</zIndex>
-            <rotation>-40</rotation>
-        </text> -->
 
         <text name="md_name">
             <pos>0.475 0.22</pos>

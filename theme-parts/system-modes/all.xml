@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system">
+		<sound name="bgsound">
+			<path ifSubset="backgroundmusic:both">./../../assets/music/animetas_tracks.mp3</path>
+			<path ifSubset="backgroundmusic:silenceofthenight">./../../assets/music/silence_of_the_night.mp3</path>
+			<path ifSubset="backgroundmusic:readytofight">./../../assets/music/ready_to_fight.mp3</path>
+			<path ifSubset="backgroundmusic:cyberh49">./../../assets/music/cyberh49.mp3</path>
+			<path ifSubset="backgroundmusic:pixelgustavo">./../../assets/music/pixelgustavo.mp3</path>
+			<path ifSubset="backgroundmusic:fccview">./../../assets/music/fccview.mp3</path>
+		</sound>
+
+        <video ifSubset="backgroundvideo:yes" name="staticBackground">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../../assets/art/bgvideo.mp4</path>
+            <zIndex>0</zIndex>
+        </video>
+
+        <image ifSubset="backgroundvideo:no" name="staticBackground">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <tile>false</tile>
+            <linearSmooth>true</linearSmooth>
+            <path>./../../assets/art/bgimage.jpg</path>
+            <zIndex>0</zIndex>
+        </image>
+
+        <image name="logo">
+            <zIndex>70</zIndex>
+            <path>./../../assets/logos/${system.theme}.svg</path>
+            <path>./../../assets/logos/${system.theme}.png</path>
+            <storyboard ifSubset="indexcolor:yellow" event="activate">
+                <animation ifSubset="indexcolor:yellow" property="color" from="ffffff" to="FAD400" begin="" duration="600" mode="EaseIn" autoreverse="false"/>
+            </storyboard>
+            <storyboard ifSubset="indexcolor:magenta" event="activate">
+				<animation  ifSubset="indexcolor:magenta" property="color" from="ffffff" to="FC2A8B" begin="" duration="600" mode="EaseIn" autoreverse="false"/>
+            </storyboard>
+        </image>
+
+        <text name="logoText">
+            <fontPath>./../../assets/fonts/Road_Rage.otf</fontPath>
+            <fontSize>0.056</fontSize>
+            <color>ffffffff</color>
+        </text>
+    </view>
+</theme>
