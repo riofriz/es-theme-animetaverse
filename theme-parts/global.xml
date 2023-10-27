@@ -16,7 +16,7 @@
 		<menuText name="menutext">
 			<fontPath>./../assets/fonts/AgencyFB-Bold.ttf</fontPath>
 			<fontSize>0.026</fontSize>
-			<color>ffffff</color>
+			<color>c2c2c2</color>
 			<selectorColor>fcd400</selectorColor>
 			<selectorColorEnd>fcd400</selectorColorEnd>
 			<selectedColor>000000</selectedColor>
